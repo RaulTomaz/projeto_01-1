@@ -12,6 +12,9 @@ main h1 {
     text-align: center;
     background-color: #851944;
     color: #FFF;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: #3C1D3D;
 }
 
 p {
@@ -20,6 +23,11 @@ p {
 
 blockquote {
     background-color: #D9E5E3;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    box-sizing: border-box;
+    border-bottom-color: #333;
+    border-right-color: #FFF;
 }
 
 aside {
@@ -43,4 +51,45 @@ main a {
 aside a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
+}
+
+blockquote,
+aside,
+footer {
+    padding: 20px;
+    line-height: 1.5;
+}
+main h1 {
+    padding: 25px;
+}
+
+main div {
+    width: 720px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside {
+    text-align: center;
+}
+
+body {
+    line-height: 1.5;
+}
+
+.reto{
+    border-left: 30px solid red;
+    border-bottom: 30px solid red;
+    border-top: 30px solid transparent;
+    border-right: 30px solid transparent;
+    width: 0;
+}
+
+.borboleta {
+    border-left: 30px solid red;
+    border-bottom: 30px solid transparent;
+    border-top: 30px solid transparent;
+    border-right: 30px solid red;
+    width: 0;
 }
